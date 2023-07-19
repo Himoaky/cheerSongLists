@@ -1,14 +1,20 @@
 body{
     margin-left:10px;
-    background-color:rgb(215, 255, 255);
+    background-color:rgba(215, 255, 255, 0.651);
 }
 a:link,a:visited{
 
     text-decoration:none;
 }
-
-.icon {
+.lists{
+    background-color:rgb(163, 243, 212);
+    border-radius: 8px;
+    padding-top :10px;
+    width:90%;
+}
+header a{
     display: inline-block;
+    border-radius: 10px;
 }
 
 .ct{
@@ -48,4 +54,23 @@ a:link,a:visited{
 .icon6{
     background-color: yellow;
     color:black;
+}
+
+.ctTexts p,.songTexts p{
+    border :5px;
+    border-color:rgb(82, 82, 73);
+    border-radius:5px;
+    background-color:beige;
+    padding:5px;
+}
+.songLists,.ctLists{
+    display: inline-block;
+}
+
+.songLists a{
+    display: block;
+    margin-left:20px;
+}
+.blank{
+    padding:500px;
 }
