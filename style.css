@@ -1,3 +1,51 @@
-. {
+body{
+    margin-left:10px;
+    background-color:rgb(215, 255, 255);
+}
+a:link,a:visited{
+
+    text-decoration:none;
+}
+
+.icon {
     display: inline-block;
+}
+
+.ct{
+    display: block;
+}
+
+.ctLists{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.lists a{
+    font-weight:bold;
+    padding :5px 10px;
+    margin:1px;
+}
+.icon1{
+    background-color:red;
+    color:white;
+}
+.icon2{
+    background-color:aqua;
+    color:black;
+}
+.icon3{
+    background-color: orange;
+    color:black;
+}
+.icon4{
+    background-color:blue;
+    color :white;
+}
+.icon5{
+    background-color: greenyellow;
+    color:black;
+}
+.icon6{
+    background-color: yellow;
+    color:black;
 }
