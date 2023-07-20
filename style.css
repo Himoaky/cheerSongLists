@@ -1,16 +1,19 @@
 body{
     margin-left:10px;
-    background-color:rgba(215, 255, 255, 0.651);
-}
-a:link,a:visited{
 
+    font-family:"メイリオ";
+}
+body{background-image:url("https://4.bp.blogspot.com/-bjq_-rEdyd8/Wge7obz3agI/AAAAAAABICI/S_yRF0-1IWghHYjE2EYRFqgi7OQrBJe6gCLcBGAs/s800/bg_baseball_ground.jpg");
+}
+
+a:link,a:visited{
     text-decoration:none;
 }
 .lists{
-    background-color:rgb(163, 243, 212);
+    background-color:rgb(163, 243, 212 , 0.9);
     border-radius: 8px;
     padding-top :10px;
-    width:90%;
+    width:100%;
 }
 header a{
     display: inline-block;
@@ -23,12 +26,12 @@ header a{
 
 .ctLists{
     margin-top:10px;
-    margin-bottom:10px;
+
 }
 
 .lists a{
     font-weight:bold;
-    padding :5px 10px;
+    padding :5px 5px;
     margin:1px;
 }
 .icon1{
@@ -60,15 +63,34 @@ header a{
     border :5px;
     border-color:rgb(82, 82, 73);
     border-radius:5px;
-    background-color:beige;
+    opacity:1;
+    background-color:rgb(245, 245, 220,0.9);
     padding:5px;
+
+    
 }
+
+
 .songLists,.ctLists{
     display: inline-block;
+    background-color:  rgb(255, 244, 184, 0.9);
+    padding:5px;
+    border-radius: 5px;
+    height:150px;
+}
+.songLists {
+    margin-left:10px;
+
+}
+
+.songLists a,.ctLists a{
+    margin-left:20px;
+    padding-right:20px;
+    margin-bottom:2px;
 }
 
 .songLists a{
-    display: block;
+    display:  block;
     margin-left:20px;
 }
 .blank{
@@ -76,9 +98,22 @@ header a{
 }
 
 main{
-    background-color: rgb(255, 244, 184);
+    background-color: rgb(255, 244, 184, 0.5);
 }
 main p{
     padding :5px;
+    height:30px;
+    border-radius: 10px;
+    border:solid;
+    border-color:brown;
+
+}
+
+main a{
+ display:inline-block;
+ float:right;
+ margin-right:60%;
+ padding:3px;
+ position: relative;
 
 }
