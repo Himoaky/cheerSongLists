@@ -5,6 +5,9 @@ body{
 }
 body{background-image:url("https://4.bp.blogspot.com/-bjq_-rEdyd8/Wge7obz3agI/AAAAAAABICI/S_yRF0-1IWghHYjE2EYRFqgi7OQrBJe6gCLcBGAs/s800/bg_baseball_ground.jpg");
 }
+background-image{
+    width:100%;
+}
 
 a:link,a:visited{
     text-decoration:none;
